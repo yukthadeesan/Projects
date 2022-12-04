@@ -1,5 +1,7 @@
 ```
 //autograder in JUnit that score a given implementation using written tests. 
+
+err() {
   echo $1
   exit 1
 }
