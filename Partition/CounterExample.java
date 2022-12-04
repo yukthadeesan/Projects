@@ -1,4 +1,4 @@
-//given counterExample interface 
+//given counterExample class
 
 import java.util.Arrays;
 
