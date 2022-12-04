@@ -1,9 +1,10 @@
-err() {
+```
+//autograder in JUnit that score a given implementation using written tests. 
   echo $1
   exit 1
 }
 
-dir="student_submission"
+dir="file_to_check"
 CP=".\
 :lib/hamcrest-core-1.3.jar\
 :lib/junit-4.13.2.jar"
@@ -45,3 +46,4 @@ echo "$number_of_tests_failed" tests failed.
 echo Score: "$(($total_tests - $number_of_tests_failed))" out of $total_tests
 
 exit
+```
