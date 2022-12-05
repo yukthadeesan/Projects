@@ -1,4 +1,4 @@
-//given the interface for HashMap
+//given interface for HashMap
 
 import java.util.List;
 
